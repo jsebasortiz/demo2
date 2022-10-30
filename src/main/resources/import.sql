@@ -1,6 +1,8 @@
-INSERT INTO estudiantes (id, nombre, apellido, cedula)VALUES (1,'Jhon', 'Travolta', 1111111111);
-INSERT INTO estudiantes (id, nombre, apellido, cedula)VALUES (2,'Carlos', 'Martinez', 2222222222);
-INSERT INTO estudiantes (id, nombre, apellido, cedula)VALUES (3,'Julio', 'Maldonado', 3333333333);
-INSERT INTO estudiantes (id, nombre, apellido, cedula)VALUES (4,'Oliver', 'Aton', 4444444444);
-INSERT INTO estudiantes (id, nombre, apellido, cedula)VALUES (5,'La', 'Roca', 5555555555);
-INSERT INTO estudiantes (id, nombre, apellido, cedula)VALUES (6,'Frank', 'Ribery', 6666666666);
+INSERT INTO public.estudiantes (id, apellido, cedula, correo, creado_en, nombre) VALUES (1, 'Gomez', 101, 'Samuel.gomez05@gmail.com', '2022-10-07', 'Samuel');
+INSERT INTO public.estudiantes (id, apellido, cedula, correo, creado_en, nombre) VALUES (2, 'Valencia', 102, 'Ramon.valencia10@gmail.com', '2022-10-08', 'Ramon');
+INSERT INTO public.estudiantes (id, apellido, cedula, correo, creado_en, nombre) VALUES (3, 'Bernal', 103, 'Nicolle.bernal02@gmail.com', '2022-10-09', 'Nicolle');
+INSERT INTO public.estudiantes (id, apellido, cedula, correo, creado_en, nombre) VALUES (4, 'Ramirez', 104, 'Camila.ramirez03@gmail.com', '2022-10-12', 'Camila');
+INSERT INTO public.estudiantes (id, apellido, cedula, correo, creado_en, nombre) VALUES (5, 'Gaviria', 105, 'Andrea.gaviria09@gmail.com', '2022-10-14', 'Andrea');
+INSERT INTO public.estudiantes (id, apellido, cedula, correo, creado_en, nombre) VALUES (6, 'Ortiz', 106, 'Sebastian.ortiz05@gmail.com', '2022-10-21', 'Sebastian');
+
+

@@ -1,9 +1,7 @@
 package co.edu.uceva.demo.model.entities;
 
-import co.edu.uceva.demo.model.service.IEstudianteService;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.Parameter;
-import org.springframework.lang.NonNull;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -29,6 +27,7 @@ public class Estudiante implements Serializable {
     private String nombre;
     private String apellido;
     private Long cedula;
+    private String correo;
 
     @Column(name = "creado_en")
     @Temporal(TemporalType.DATE)
@@ -74,4 +73,8 @@ public class Estudiante implements Serializable {
         this.cedula = cedula;
     }
 
+    public String getCorreo() {return correo; }
+
+    public void setCorreo(String correo) {this.correo = correo;
+    }
 }
