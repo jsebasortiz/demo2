@@ -19,7 +19,6 @@ public class EstudianteServiceImpl implements IEstudianteService{
         return (List<Estudiante>) estudianteDao.findAll();
 
     }
-
     @Override
     public Estudiante findById(Long id) {
         return estudianteDao.findById(id).orElse(null);

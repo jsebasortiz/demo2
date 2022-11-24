@@ -59,7 +59,8 @@ public class EstudianteRestController {
         Estudiante estudianteActual = this.estudianteService.findById(id);
         estudianteActual.setNombre(estudiante.getNombre());
         estudianteActual.setApellido(estudiante.getApellido());
-        estudianteActual.setCedula(estudiante.getCedula());
+        estudianteActual.setMensaje(estudiante.getMensaje());
+        estudianteActual.setCreadoEn(estudiante.getCreadoEn());
         this.estudianteService.crear(estudianteActual);
         return estudianteActual;
     }
